@@ -15,10 +15,18 @@ public class fizzBuzzTest {
 	}
 
 	@Test
-	public void test() {
+	public void testDivisbleBy3() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzzzz(3);
+		String result = b.buzzzz(26);
 		assertEquals("fizz",result);
 	}
+	
+	@Test
+	public void testDivisbleBy5() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzz(25);
+		assertEquals("fizz",result);
+	}
+	
 
 }

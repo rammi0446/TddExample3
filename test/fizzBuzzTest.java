@@ -17,7 +17,7 @@ public class fizzBuzzTest {
 	@Test
 	public void testDivisbleBy3() {
 		FizzBuzz b = new FizzBuzz();
-		String result = b.buzzzz(26);
+		String result = b.buzzzz(27);
 		assertEquals("fizz",result);
 	}
 	
@@ -25,7 +25,7 @@ public class fizzBuzzTest {
 	public void testDivisbleBy5() {
 		FizzBuzz b = new FizzBuzz();
 		String result = b.buzzzz(25);
-		assertEquals("fizz",result);
+		assertEquals("buzz",result);
 	}
 	
 

@@ -6,6 +6,10 @@ public String buzzzz(int num)
 	{
 	return "fizz";
 	}
+	else if(num %5 == 0)
+	{
+		return "buzz";
+	}
 	return null;
 }
 }

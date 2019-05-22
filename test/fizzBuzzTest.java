@@ -28,5 +28,13 @@ public class fizzBuzzTest {
 		assertEquals("buzz",result);
 	}
 	
+	@Test
+	public void testDivisbleBy5and3() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzz(15);
+		assertEquals("fizzbuzz",result);
+	}
+
+	
 
 }

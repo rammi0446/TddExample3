@@ -16,7 +16,9 @@ public class fizzBuzzTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzz(3);
+		assertEquals("fizz",result);
 	}
 
 }

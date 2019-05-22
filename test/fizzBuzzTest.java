@@ -41,6 +41,13 @@ public class fizzBuzzTest {
 		String result = b.buzzzz(4);
 		assertEquals("4",result);
 	}
+	
+	@Test
+	public void testPrimerNumber() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzz(11);
+		assertEquals("whizz",result);
+	}
 
 
 	

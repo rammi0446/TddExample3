@@ -15,6 +15,6 @@ public String buzzzz(int num)
 		return "fizz";
 	}
 	
-	return null;
+	return String.valueOf(num);
 }
 }

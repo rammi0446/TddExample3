@@ -50,6 +50,15 @@ public class fizzBuzzTest {
 	}
 
 
+	@Test
+	public void testAppendWizz() {
+		FizzBuzz b = new FizzBuzz();
+		String result = b.buzzzz(6);
+		//check divisible by 3
+		assertEquals("whizz",result);
+		//number is prime
+		assertEquals("whizz",result);
+	}
 	
 
 }

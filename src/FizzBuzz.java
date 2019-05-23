@@ -16,6 +16,10 @@ public class FizzBuzz {
 		System.out.println("is prime :" +isPrime);
 		return isPrime;
 	}
+	
+	
+	
+	
 public String buzzzz(int num)
 {
 boolean isPrime = checkPrime(num);
